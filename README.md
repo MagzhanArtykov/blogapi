@@ -4,6 +4,10 @@
 1. Tags duplicates on update, I can fix it if it is critical
 2. I did not used DTO aproach(and its annotations) to keep it only with starter dependencies
 
+**Testing**
+
+Provided Postman sample to simplify testing in 
+blogapi/src/main/resources/BlogAPI.postman_collection.json
 
 
 **Task description**
