@@ -26,7 +26,7 @@ public class Post {
     @Column(name = "content")
     private String content;
 
-    @ManyToMany(cascade = CascadeType.ALL)
+    @ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE})
     @JoinTable(
             name = "rel_posts_tags",
             joinColumns = @JoinColumn(name = "post_id"),

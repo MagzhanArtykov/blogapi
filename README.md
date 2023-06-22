@@ -1,8 +1,7 @@
 # Sample Blog API implementation
 
 **TODO**
-1. Tags duplicates on update, I can fix it if it is critical
-2. I did not used DTO aproach(and its annotations) to keep it only with starter dependencies
+    I did not used DTO aproach(and its annotations) to keep it only with starter dependencies
 
 **Testing**
 

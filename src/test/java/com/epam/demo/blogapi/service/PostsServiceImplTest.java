@@ -13,7 +13,7 @@ class PostsServiceImplTest {
 
     @BeforeEach
     void init(){
-        postsService = new PostsServiceImpl(null);
+        postsService = new PostsServiceImpl(null, null);
     }
 
     @Test
